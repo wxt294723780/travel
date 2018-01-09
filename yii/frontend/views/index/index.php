@@ -34,7 +34,7 @@
         </div>
         <div class="col-md-6 top-middle">
             <ul>
-                <li><a class="btn btn-info" >登录</a></li>
+                <li><a class="btn btn-info" data-toggle="modal" data-target="#myModal">登录</a></li>
                 <li><a class="btn btn-primary">注册</a></li>
                 <li class="dropdown">
                     <a class="dropdown-toggle"
@@ -797,7 +797,23 @@
 <!---<div class="map">
 		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d824358.4224041457!2d127.48695322504157!3d36.18723152679721!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356455ebcb11ba9b%3A0x91249b00ba88db4b!2sSouth+Korea!5e0!3m2!1sen!2sin!4v1491820073779"></iframe></div>--->
 <!-- //map -->
-
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">登录</h4>
+            </div>
+            <div class="modal-body">
+                    
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
 <!--footer-->
 <div class="footer">
     <div class="footer-main">
