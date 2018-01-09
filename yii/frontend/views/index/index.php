@@ -34,7 +34,7 @@
         </div>
         <div class="col-md-6 top-middle">
             <ul>
-                <li><a class="btn btn-info"  data-toggle="modal" data-target="#myModal">登录</a></li>
+                <li><a class="btn btn-info" >登录</a></li>
                 <li><a class="btn btn-primary">注册</a></li>
                 <li class="dropdown">
                     <a class="dropdown-toggle"
@@ -858,30 +858,7 @@
         <div class="clearfix"></div>
     </div>
 </div>
-<div class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-body">
-                <h2 style="text-align: center;">登录</h2>
-                <div class="form-group">
-                    <input type="text"name="user_phone" id="Inputphone" value="" placeholder="phone">
-                    <span style="color:#146EB4;"></span>
-                </div>
-                <div class="form-group">
-                    <input type="password"  name="user_pwd" id="InputPwd" placeholder="Password" >
-                    <span style="color:#146EB4;"></span>
-                </div>
-                <div class="checkbox">
-                    <label>
-                        <input type="checkbox" name="save"> Check me 7
-                    </label>
-                    <p style="text-align: center;"> <button id="dl" class="btn  btn-default" >登录</button></p>
-                </div>
 
-            </div>
-        </div>
-    </div>
-</div>
 
 <!-- js -->
 <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
